@@ -18,33 +18,58 @@ def afficher_liste():
     return listbox
 
 def afficher_sous_liste(event):
-    bouton_cocher_tout = Button(option_frame, text="Tout cocher  ", command=cocher_tout)
-    bouton_cocher_tout.grid(column=2, row=1, sticky="e")
-    bouton_decocher_tout = Button(option_frame, text="Tout décocher", command=decocher_tout)
-    bouton_decocher_tout.grid(column=2, row=2, sticky="e")
-    global sub_listbox, check_buttons, check_var
-    clear_sub_list()
-    if not listbox.curselection():  # Vérifier s'il y a une sélection
-        return
-    selected_item = listbox.get(listbox.curselection()[0])
-    if selected_item == "Élément 1":
-        sous_liste = ["Sous-élément 1.1", "Sous-élément 1.2", "Sous-élément 1.3"]
-    elif selected_item == "Élément 2":
-        sous_liste = ["Sous-élément 2.1", "Sous-élément 2.2", "Sous-élément 2.3"]
-    elif selected_item == "Élément 3":
-        sous_liste = ["Sous-élément 3.1", "Sous-élément 3.2", "Sous-élément 3.3"]
-    else:
-        return
-    sub_listbox = ttk.Frame(right_frame)
-    check_var = []
-    check_buttons = []
-    for i, item in enumerate(sous_liste):
-        var = BooleanVar()
-        check_var.append(var)
-        check_button = Checkbutton(sub_listbox, text=item, variable=var)
-        check_button.grid(column=0, row=i, sticky="w")
-        check_buttons.append(check_button)
-    sub_listbox.grid(column=0, row=1, sticky=(N, W, E, S))
+    frame = ttk.Frame(right_frame, padding="10")
+    frame.grid(column=0, row=1, sticky=(N, W, E, S))
+
+    # Création de la barre de défilement
+    scrollbar = ttk.Scrollbar(frame, orient=VERTICAL)
+    scrollbar.pack(side=RIGHT, fill=Y)
+
+    # Création de la liste
+    listbox = Listbox(frame, yscrollcommand=scrollbar.set, selectmode=MULTIPLE)
+    listbox.pack(side=LEFT, fill=BOTH, expand=True)
+
+    # Configuration de la barre de défilement pour fonctionner avec la liste
+    scrollbar.configure(command=listbox.yview)
+
+    # Ajout de 15 éléments à la liste avec des cases à cocher
+    for i in range(15):
+        listbox.insert(END, f"Élément {i + 1}")
+        listbox.itemconfig(i, selectbackground='', selectforeground='')
+
+    def update_selection():
+        selected_indices = listbox.curselection()
+        for i in range(listbox.size()):
+            if i in selected_indices:
+                listbox.itemconfig(i, selectbackground='blue', selectforeground='white')
+            else:
+                listbox.itemconfig(i, selectbackground='', selectforeground='')
+        # Configuration de la fonction de mise à jour de la sélection lorsqu'un élément est cliqué
+        listbox.bind("<<ListboxSelect>>", lambda event: update_selection())
+
+        # Fonction pour récupérer les éléments sélectionnés
+    def get_selected_items():
+            selected_items = [listbox.get(i) for i in listbox.curselection()]
+            return selected_items
+
+        # Exemple de fonction utilisant les éléments sélectionnés
+    def process_selected_items():
+            items = get_selected_items()
+            # Faites quelque chose avec les éléments sélectionnés
+            print("Éléments sélectionnés :", items)
+
+    def toggle_select_all_items():
+        if len(listbox.curselection()) == listbox.size():
+            listbox.selection_clear(0, END)
+        else:
+            listbox.select_set(0, END)
+        update_selection()
+    buttonFrame = ttk.Frame(right_frame,padding=5)
+    buttonFrame.grid(column=0,row=2)
+    button = ttk.Button(buttonFrame, text="IMPORTER", command=process_selected_items)
+    buttonToggleSelection = ttk.Button(buttonFrame, text="🗘", command=toggle_select_all_items)
+    buttonToggleSelection.grid(column=0, row=0)
+    button.grid(column=1, row=0)
 
 def importClefs():
     print("key")
