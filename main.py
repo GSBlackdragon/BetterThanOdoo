@@ -125,7 +125,11 @@ def clear_list():
 
 
 
+def clearresearch():
 
+
+    for widget in option_frame.grid_slaves(row=125):
+        widget.destroy()
 def importKeys():
     print("importKeys")
 
@@ -137,7 +141,7 @@ def importAll():
 
 def switch():
     clear_list()
-
+    clearresearch()
     value = var.get()
     if value == "datas":
         importAll()
