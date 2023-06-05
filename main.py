@@ -31,6 +31,7 @@ def show_list():
 
     # Création d'un Listbox pour afficher la liste des éléments
     listbox = Listbox(right_frame)
+    listbox.config(width=30, height=15)
     for item in list:
         listbox.insert(END, item)
     listbox.grid(column=0, row=0, sticky=(N, W, E, S))
@@ -69,7 +70,7 @@ def show_under_list(event):
     # Ajout de 15 éléments à la liste avec des cases à cocher
     for index, column_name in enumerate(result[listbox.get(selected_index)]):
 
-        if result[listbox.get(selected_index)][column_name]["relation"] == "PRIMARY_KEY":
+        if result[listbox.get(selected_index)][column_name]["relation"] == "PRIMARY_KEY" or result[listbox.get(selected_index)][column_name]["type"] == "id":
             underList.insert(END, "🔑 " + column_name)
         elif result[listbox.get(selected_index)][column_name]["relation"] is not None:
             underList.insert(END, "🔗 " + column_name)
@@ -122,24 +123,16 @@ def clear_list():
         widget.destroy()
 
 
-def importKeys():
-    widgets = option_frame.grid_slaves(column=2)
 
-    # Parcourir les éléments et les supprimer
-    for widget in widgets:
-        # Vérifier si l'élément se trouve aux rows 1 ou 2
-        if widget.grid_info()["row"] in [1, 2]:
-            widget.grid_remove()
+
+
+def importKeys():
+    print("importKeys")
+
 
 
 def importAll():
-    widgets = option_frame.grid_slaves(column=2)
-
-    # Parcourir les éléments et les supprimer
-    for widget in widgets:
-        # Vérifier si l'élément se trouve aux rows 1 ou 2
-        if widget.grid_info()["row"] in [1, 2]:
-            widget.grid_remove()
+    print("importAll")
 
 
 def switch():
@@ -169,6 +162,10 @@ def research(*args):
         for table in list:
             if table.lower().startswith(champ_input_texte.get().lower()) is False:
                 list.remove(table)
+    else:
+        list = []
+        for table in result.keys():
+            list.append(table)
 
     show_list()
 

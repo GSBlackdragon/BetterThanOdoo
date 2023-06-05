@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c37e199-dd3e-4ccc-a8c6-bd60b49f0dcb" name="Changes" comment="Ajout d'un début d'interface">
+    <list default="true" id="8c37e199-dd3e-4ccc-a8c6-bd60b49f0dcb" name="Changes" comment="interface v2">
       <change afterPath="$PROJECT_DIR$/tempo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -24,7 +23,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="1b158616-0cbb-4130-b879-4a4b9b3db073" />
+        <option name="url" value="https://github.com/GSBlackdragon/BetterThanOdoo.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectId" id="2QeHJ3uAFiI9D9pGMnAbJWrMKyu" />
   <component name="ProjectViewState">
@@ -40,10 +51,11 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.main">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="BetterThanOdoo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -67,6 +79,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="tempo" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="BetterThanOdoo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\r.gouraud\AppData\Local\Microsoft\WindowsApps\python3.11.exe" />
+      <option name="SDK_NAME" value="Python 3.11" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tempo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -78,7 +113,9 @@
       <updated>1685707057311</updated>
       <workItem from="1685707059873" duration="9995000" />
       <workItem from="1685946958595" duration="189000" />
-      <workItem from="1685947172554" duration="5723000" />
+      <workItem from="1685947172554" duration="11505000" />
+      <workItem from="1685959393968" duration="6169000" />
+      <workItem from="1685972575958" duration="1951000" />
     </task>
     <task id="LOCAL-00001" summary="Ajout d'un début d'interface">
       <created>1685717743437</created>
@@ -94,7 +131,28 @@
       <option name="project" value="LOCAL" />
       <updated>1685947388615</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Ajout de la sous lsite fonctionelle">
+      <created>1685953622317</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685953622317</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Fin de l'interface">
+      <created>1685968605705</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685968605705</updated>
+    </task>
+    <task id="LOCAL-00005" summary="interface v2">
+      <created>1685969069648</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1685969069648</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,9 +160,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ajout d'un début d'interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout d'un début d'interface" />
+    <MESSAGE value="Ajout de la sous lsite fonctionelle" />
+    <MESSAGE value="Fin de l'interface" />
+    <MESSAGE value="interface v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="interface v2" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/BetterThanOdoo$main.coverage" NAME="main Coverage Results" MODIFIED="1685953387923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/BetterThanOdoo$tempo.coverage" NAME="tempo Coverage Results" MODIFIED="1685966487668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/BetterThanOdoo$main.coverage" NAME="main Coverage Results" MODIFIED="1685975370152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
