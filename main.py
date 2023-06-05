@@ -1,10 +1,10 @@
 from tkinter import *
 from tkinter import ttk
 import json
-#good one
+
+# good one
 
 with open("tables.json", "r") as fichier:
-
     data = json.load(fichier)
 result = {}
 
@@ -22,38 +22,34 @@ for item in data:
         }
     result[table_name] = column_dict
 
-liste =[key for key in result.keys()]
+list = [key for key in result.keys()]
 selected_index = None
-def afficher_liste():
-    global listbox, liste, champ_input_texte
 
 
+def show_list():
+    global listbox, list, champ_input_texte
 
     # Création d'un Listbox pour afficher la liste des éléments
     listbox = Listbox(right_frame)
-    for item in liste:
+    for item in list:
         listbox.insert(END, item)
     listbox.grid(column=0, row=0, sticky=(N, W, E, S))
 
-
-
-
     # Crée le champ d'entrée
-    champ_input = Entry(option_frame, textvariable=champ_input_texte )
-    champ_input.grid(column=0, row=125,columnspan=3, pady=5,sticky=(N, W, E, S))
+    champ_input = Entry(option_frame, textvariable=champ_input_texte)
+    champ_input.grid(column=0, row=125, columnspan=3, pady=5, sticky=(N, W, E, S))
     print(champ_input_texte.get())
-    listbox.bind('<<ListboxSelect>>', afficher_sous_liste)
+    listbox.bind('<<ListboxSelect>>', show_under_list)
 
-def afficher_sous_liste(event):
+
+def show_under_list(event):
     global selected_index
     global result
-    if selected_index == None:
+    if selected_index is None:
         selected_index = listbox.curselection()[0]
 
-    elif selected_index != None and len(listbox.curselection()) !=0:
+    elif selected_index is not None and len(listbox.curselection()) != 0:
         selected_index = listbox.curselection()[0]
-
-
 
     # Récupérer l'index de la ligne sélectionnée dans la liste principale
 
@@ -63,41 +59,38 @@ def afficher_sous_liste(event):
     scrollbar = ttk.Scrollbar(frame, orient=VERTICAL)
     scrollbar.pack(side=RIGHT, fill=Y)
 
-    # Création de la liste
-    sousListe = Listbox(frame, yscrollcommand=scrollbar.set, selectmode=MULTIPLE)
-    sousListe.pack(side=LEFT, fill=BOTH, expand=True)
+    # Creation de la liste
+    underList = Listbox(frame, yscrollcommand=scrollbar.set, selectmode=MULTIPLE)
+    underList.pack(side=LEFT, fill=BOTH, expand=True)
 
     # Configuration de la barre de défilement pour fonctionner avec la liste
-    scrollbar.configure(command=sousListe.yview)
+    scrollbar.configure(command=underList.yview)
 
     # Ajout de 15 éléments à la liste avec des cases à cocher
-    for index, column_name in  enumerate(result[listbox.get(selected_index)]):
+    for index, column_name in enumerate(result[listbox.get(selected_index)]):
 
         if result[listbox.get(selected_index)][column_name]["relation"] == "PRIMARY_KEY":
-            sousListe.insert(END, "🔑 " +column_name )
+            underList.insert(END, "🔑 " + column_name)
         elif result[listbox.get(selected_index)][column_name]["relation"] is not None:
-            sousListe.insert(END, "🔗 " + column_name)
+            underList.insert(END, "🔗 " + column_name)
         else:
-            sousListe.insert(END, "     " + column_name)
+            underList.insert(END, "     " + column_name)
 
+        # 🔑underList.insert(END, column_info['type'] + " " + column_name)
 
-        #🔑sousListe.insert(END, column_info['type'] + " " + column_name)
-
-        #sousListe.itemconfig(index, selectbackground='', selectforeground='')
-    sousListe.focus_set()
-
-
+        # underList.itemconfig(index, selectbackground='', selectforeground='')
+    underList.focus_set()
 
     def update_selection(event):
-        selected_indices = sousListe.curselection()
-        for i in range(sousListe.size()):
+        selected_indices = underList.curselection()
+        for i in range(underList.size()):
             if i in selected_indices:
-                sousListe.itemconfig(i, selectbackground='blue', selectforeground='white')
+                underList.itemconfig(i, selectbackground='blue', selectforeground='white')
             else:
-                sousListe.itemconfig(i, selectbackground='', selectforeground='')
+                underList.itemconfig(i, selectbackground='', selectforeground='')
 
     def get_selected_items():
-        selected_items = [sousListe.get(i) for i in sousListe.curselection()]
+        selected_items = [underList.get(i) for i in underList.curselection()]
         return selected_items
 
     def process_selected_items():
@@ -105,12 +98,11 @@ def afficher_sous_liste(event):
         # Faites quelque chose avec les éléments sélectionnés
         print("Éléments sélectionnés :", items)
 
-
     def toggle_select_all_items():
-        if len(sousListe.curselection()) == sousListe.size():
-            sousListe.selection_clear(0, END)
+        if len(underList.curselection()) == underList.size():
+            underList.selection_clear(0, END)
         else:
-            sousListe.select_set(0, END)
+            underList.select_set(0, END)
         update_selection("")
 
     buttonFrame = ttk.Frame(right_frame, padding=5)
@@ -120,7 +112,7 @@ def afficher_sous_liste(event):
     buttonToggleSelection.grid(column=0, row=0)
     button.grid(column=1, row=0)
 
-    sousListe.bind('<<ListboxSelect>>', update_selection)
+    underList.bind('<<ListboxSelect>>', update_selection)
 
 
 def clear_list():
@@ -130,10 +122,7 @@ def clear_list():
         widget.destroy()
 
 
-
-
-def importClefs():
-
+def importKeys():
     widgets = option_frame.grid_slaves(column=2)
 
     # Parcourir les éléments et les supprimer
@@ -141,9 +130,9 @@ def importClefs():
         # Vérifier si l'élément se trouve aux rows 1 ou 2
         if widget.grid_info()["row"] in [1, 2]:
             widget.grid_remove()
+
 
 def importAll():
-
     widgets = option_frame.grid_slaves(column=2)
 
     # Parcourir les éléments et les supprimer
@@ -151,7 +140,6 @@ def importAll():
         # Vérifier si l'élément se trouve aux rows 1 ou 2
         if widget.grid_info()["row"] in [1, 2]:
             widget.grid_remove()
-
 
 
 def switch():
@@ -161,33 +149,28 @@ def switch():
     if value == "datas":
         importAll()
     elif value == "clefs":
-        importClefs()
+        importKeys()
     elif value == "table":
-        afficher_liste()
+        show_list()
     else:
         print("Veuillez sélectionner une option.")
 
 
 def research(*args):
-    global liste
+    global list
     global result
     if champ_input_texte.get() != "":
-        liste = []
+        list = []
         tempo = result.keys()
         clear_list()
         for table in tempo:
             if table.lower().startswith(champ_input_texte.get().lower()):
-                liste.append(table)
-        for table in liste:
+                list.append(table)
+        for table in list:
             if table.lower().startswith(champ_input_texte.get().lower()) is False:
-                liste.remove(table)
+                list.remove(table)
 
-
-    afficher_liste()
-
-
-
-
+    show_list()
 
 
 root = Tk()
