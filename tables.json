@@ -34,6 +34,43 @@
       }
     ]
   }
+]
+[
+  {
+    "table_name": "product_pricelist",
+    "column": [
+      {
+        "column_name": "id",
+        "type": "int",
+        "relation": "PRIMARY_KEY"
+      },
+      {
+        "column_name": "name",
+        "type": "string",
+        "relation": null
+      },
+      {
+        "column_name": "company_id",
+        "type": "int",
+        "relation": "res_company"
+      }
+    ]
+  },
+  {
+    "table_name": "res_company",
+    "column": [
+      {
+        "column_name": "id",
+        "type": "int",
+        "relation": "PRIMARY_KEY"
+      },
+      {
+        "column_name": "name",
+        "type": "string",
+        "relation": null
+      }
+    ]
+  }
   ,
   {
     "table_name": "res_partner",

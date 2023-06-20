@@ -1,0 +1,258 @@
+2023-06-05 12:05:33,982 - DEBUG - Hello - Hello
+2023-06-05 12:23:36,650 - INFO - __init__ - Connected to Odoo API
+2023-06-05 13:36:55,077 - INFO - __init__ - Connected to Odoo API
+2023-06-05 13:37:08,852 - INFO - __init__ - Connected to Odoo API
+2023-06-05 13:38:27,574 - INFO - __init__ - Connected to Odoo API
+2023-06-05 13:41:38,186 - INFO - __init__ - Connected to Odoo API
+2023-06-05 13:41:48,726 - INFO - __init__ - Connected to Odoo API
+2023-06-05 13:43:20,368 - INFO - __init__ - Connected to Odoo API
+2023-06-05 13:43:33,267 - INFO - __init__ - Connected to Odoo API
+2023-06-05 13:52:20,226 - INFO - __init__ - Connected to Odoo API
+2023-06-05 13:53:27,613 - INFO - __init__ - Connected to Odoo API
+2023-06-05 13:53:53,053 - INFO - __init__ - Connected to Odoo API
+2023-06-05 13:54:06,455 - INFO - __init__ - Connected to Odoo API
+2023-06-05 13:54:33,014 - INFO - __init__ - Connected to Odoo API
+2023-06-05 13:55:49,338 - INFO - __init__ - Connected to Odoo API
+2023-06-05 13:56:55,126 - INFO - __init__ - Connected to Odoo API
+2023-06-05 14:15:39,623 - INFO - __init__ - Connected to Odoo API
+2023-06-05 14:36:16,590 - INFO - __init__ - Connected to database : username=Inside, server=CLD-VM-CEMINEU9\SQLEXPRESS, database=TEST_BTO
+2023-06-05 14:36:49,943 - INFO - __init__ - Connected to database : username=Inside, server=CLD-VM-CEMINEU9\SQLEXPRESS, database=TEST_BTO
+2023-06-05 14:37:09,784 - INFO - __init__ - Connected to database : username=Inside, server=CLD-VM-CEMINEU9\SQLEXPRESS, database=TEST_BTO
+2023-06-05 14:37:24,085 - INFO - __init__ - Connected to database : username=Inside, server=CLD-VM-CEMINEU9\SQLEXPRESS, database=TEST_BTO
+2023-06-05 15:01:29,239 - INFO - __init__ - Connected to database : username=Inside, server=CLD-VM-CEMINEU9\SQLEXPRESS, database=TEST_BTO
+2023-06-05 15:21:14,810 - INFO - __init__ - Connected to database : username=Inside, server=CLD-VM-CEMINEU9\SQLEXPRESS, database=TEST_BTO
+2023-06-05 15:21:28,886 - INFO - __init__ - Connected to database : username=Inside, server=CLD-VM-CEMINEU9\SQLEXPRESS, database=TEST_BTO
+2023-06-05 15:21:37,938 - INFO - __init__ - Connected to database : username=Inside, server=CLD-VM-CEMINEU9\SQLEXPRESS, database=TEST_BTO
+2023-06-05 15:21:51,131 - INFO - __init__ - Connected to database : username=Inside, server=CLD-VM-CEMINEU9\SQLEXPRESS, database=TEST_BTO
+2023-06-05 15:23:08,974 - INFO - __init__ - Connected to database : username=Inside, server=CLD-VM-CEMINEU9\SQLEXPRESS, database=TEST_BTO
+2023-06-05 15:23:23,048 - INFO - __init__ - Connected to database : username=Inside, server=CLD-VM-CEMINEU9\SQLEXPRESS, database=TEST_BTO
+2023-06-05 15:24:45,566 - INFO - __init__ - Connected to database : username=Inside, server=CLD-VM-CEMINEU9\SQLEXPRESS, database=TEST_BTO
+2023-06-05 15:25:07,649 - INFO - __init__ - Connected to database : username=Inside, server=CLD-VM-CEMINEU9\SQLEXPRESS, database=TEST_BTO
+2023-06-05 15:25:50,278 - INFO - __init__ - Connected to database : username=Inside, server=CLD-VM-CEMINEU9\SQLEXPRESS, database=TEST_BTO
+2023-06-05 15:26:20,359 - INFO - __init__ - Connected to database : username=Inside, server=CLD-VM-CEMINEU9\SQLEXPRESS, database=TEST_BTO
+2023-06-05 15:27:29,561 - INFO - __init__ - Connected to database : username=Inside, server=CLD-VM-CEMINEU9\SQLEXPRESS, database=TEST_BTO
+2023-06-05 15:27:37,973 - INFO - __init__ - Connected to database : username=Inside, server=CLD-VM-CEMINEU9\SQLEXPRESS, database=TEST_BTO
+2023-06-05 15:28:08,861 - INFO - __init__ - Connected to database : username=Inside, server=CLD-VM-CEMINEU9\SQLEXPRESS, database=TEST_BTO
+2023-06-05 15:33:44,162 - INFO - __init__ - Connected to database : username=Inside, server=CLD-VM-CEMINEU9\SQLEXPRESS, database=TEST_BTO
+2023-06-05 15:33:51,013 - INFO - __init__ - Connected to database : username=Inside, server=CLD-VM-CEMINEU9\SQLEXPRESS, database=TEST_BTO
+2023-06-05 15:34:03,707 - INFO - __init__ - Connected to database : username=Inside, server=CLD-VM-CEMINEU9\SQLEXPRESS, database=TEST_BTO
+2023-06-05 15:35:56,841 - INFO - __init__ - Connected to database : username=Inside, server=CLD-VM-CEMINEU9\SQLEXPRESS, database=TEST_BTO
+2023-06-05 15:36:13,082 - INFO - __init__ - Connected to database : username=Inside, server=CLD-VM-CEMINEU9\SQLEXPRESS, database=TEST_BTO
+2023-06-05 15:40:26,038 - INFO - __init__ - Connected to database : username=Inside, server=CLD-VM-CEMINEU9\SQLEXPRESS, database=TEST_BTO
+2023-06-05 15:46:31,513 - INFO - __init__ - Connected to Odoo API
+2023-06-05 16:12:34,981 - INFO - __init__ - Connected to Odoo API
+2023-06-05 16:12:56,042 - INFO - __init__ - Connected to Odoo API
+2023-06-05 16:14:13,689 - INFO - __init__ - Connected to Odoo API
+2023-06-05 16:14:20,678 - INFO - __init__ - Connected to Odoo API
+2023-06-05 16:14:32,427 - INFO - __init__ - Connected to Odoo API
+2023-06-05 16:14:46,025 - INFO - __init__ - Connected to Odoo API
+2023-06-05 16:14:54,543 - INFO - __init__ - Connected to Odoo API
+2023-06-05 16:29:39,936 - INFO - __init__ - Connected to Odoo API
+2023-06-05 16:37:58,367 - INFO - __init__ - Connected to Odoo API
+2023-06-05 16:38:29,987 - INFO - __init__ - Connected to Odoo API
+2023-06-06 09:22:24,325 - INFO - __init__ - Connected to Odoo API
+2023-06-06 09:23:18,897 - INFO - __init__ - Connected to Odoo API
+2023-06-06 09:25:17,239 - INFO - __init__ - Connected to Odoo API
+2023-06-06 09:31:20,251 - INFO - __init__ - Connected to Odoo API
+2023-06-06 09:32:51,076 - INFO - __init__ - Connected to Odoo API
+2023-06-06 09:33:01,199 - INFO - __init__ - Connected to Odoo API
+2023-06-06 09:33:15,218 - INFO - __init__ - Connected to Odoo API
+2023-06-06 09:33:49,010 - INFO - __init__ - Connected to Odoo API
+2023-06-06 09:35:48,999 - INFO - __init__ - Connected to Odoo API
+2023-06-06 09:36:10,714 - INFO - __init__ - Connected to Odoo API
+2023-06-06 09:37:23,154 - INFO - __init__ - Connected to Odoo API
+2023-06-06 09:39:06,494 - INFO - __init__ - Connected to Odoo API
+2023-06-06 09:39:13,464 - INFO - __init__ - Connected to Odoo API
+2023-06-06 09:39:31,006 - INFO - __init__ - Connected to Odoo API
+2023-06-06 09:39:39,468 - INFO - __init__ - Connected to Odoo API
+2023-06-06 09:44:32,949 - INFO - __init__ - Connected to Odoo API
+2023-06-06 09:47:03,306 - INFO - __init__ - Connected to Odoo API
+2023-06-06 09:47:14,830 - INFO - __init__ - Connected to Odoo API
+2023-06-06 09:47:26,630 - INFO - __init__ - Connected to Odoo API
+2023-06-06 09:47:36,266 - INFO - __init__ - Connected to Odoo API
+2023-06-06 09:47:45,348 - INFO - __init__ - Connected to Odoo API
+2023-06-06 09:47:51,680 - INFO - __init__ - Connected to Odoo API
+2023-06-06 09:47:56,788 - INFO - __init__ - Connected to Odoo API
+2023-06-06 09:48:02,000 - INFO - __init__ - Connected to Odoo API
+2023-06-06 09:48:29,358 - INFO - __init__ - Connected to Odoo API
+2023-06-06 09:48:57,583 - INFO - __init__ - Connected to Odoo API
+2023-06-06 09:49:03,205 - INFO - __init__ - Connected to Odoo API
+2023-06-06 09:49:08,774 - INFO - __init__ - Connected to Odoo API
+2023-06-06 09:49:26,703 - INFO - __init__ - Connected to Odoo API
+2023-06-06 09:49:45,348 - INFO - __init__ - Connected to Odoo API
+2023-06-06 09:50:20,169 - INFO - __init__ - Connected to Odoo API
+2023-06-06 09:51:24,472 - INFO - __init__ - Connected to Odoo API
+2023-06-06 09:51:43,346 - INFO - __init__ - Connected to Odoo API
+2023-06-06 09:53:28,076 - INFO - __init__ - Connected to Odoo API
+2023-06-06 09:53:47,359 - INFO - __init__ - Connected to Odoo API
+2023-06-06 09:53:52,352 - INFO - __init__ - Connected to Odoo API
+2023-06-06 09:54:01,337 - INFO - __init__ - Connected to Odoo API
+2023-06-06 09:54:56,077 - INFO - __init__ - Connected to Odoo API
+2023-06-06 09:55:29,835 - INFO - __init__ - Connected to Odoo API
+2023-06-06 09:55:35,925 - INFO - __init__ - Connected to Odoo API
+2023-06-06 09:57:05,124 - INFO - __init__ - Connected to Odoo API
+2023-06-06 09:57:40,840 - INFO - __init__ - Connected to Odoo API
+2023-06-06 09:57:51,476 - INFO - __init__ - Connected to Odoo API
+2023-06-06 09:58:11,756 - INFO - __init__ - Connected to Odoo API
+2023-06-06 09:58:58,621 - INFO - __init__ - Connected to Odoo API
+2023-06-06 09:59:07,219 - INFO - __init__ - Connected to Odoo API
+2023-06-06 09:59:34,075 - INFO - __init__ - Connected to Odoo API
+2023-06-06 09:59:43,722 - INFO - __init__ - Connected to Odoo API
+2023-06-06 10:03:20,326 - INFO - __init__ - Connected to Odoo API
+2023-06-06 10:03:38,067 - INFO - __init__ - Connected to Odoo API
+2023-06-06 10:07:24,649 - INFO - __init__ - Connected to Odoo API
+2023-06-06 10:08:20,498 - INFO - __init__ - Connected to Odoo API
+2023-06-06 10:12:54,375 - INFO - __init__ - Connected to Odoo API
+2023-06-06 10:14:47,701 - INFO - __init__ - Connected to Odoo API
+2023-06-06 10:17:03,385 - INFO - __init__ - Connected to Odoo API
+2023-06-06 10:20:41,988 - INFO - __init__ - Connected to Odoo API
+2023-06-06 10:21:39,160 - INFO - __init__ - Connected to Odoo API
+2023-06-06 10:23:27,302 - INFO - __init__ - Connected to Odoo API
+2023-06-06 10:24:12,808 - INFO - __init__ - Connected to Odoo API
+2023-06-06 10:24:28,125 - INFO - __init__ - Connected to Odoo API
+2023-06-06 10:36:27,251 - INFO - __init__ - Connected to Odoo API
+2023-06-06 11:03:13,023 - INFO - __init__ - Connected to Odoo API
+2023-06-06 11:04:39,233 - INFO - __init__ - Connected to Odoo API
+2023-06-06 11:05:16,465 - INFO - __init__ - Connected to Odoo API
+2023-06-06 11:05:46,973 - INFO - __init__ - Connected to Odoo API
+2023-06-06 11:09:32,752 - INFO - __init__ - Connected to Odoo API
+2023-06-06 11:12:51,259 - INFO - __init__ - Connected to Odoo API
+2023-06-06 11:19:25,994 - INFO - __init__ - Connected to database : username=Inside, server=CLD-VM-CEMINEU9\SQLEXPRESS, database=TEST_BTO
+2023-06-06 11:20:35,504 - INFO - __init__ - Connected to database : username=Inside, server=CLD-VM-CEMINEU9\SQLEXPRESS, database=TEST_BTO
+2023-06-06 11:27:36,595 - INFO - __init__ - Connected to database : username=Inside, server=CLD-VM-CEMINEU9\SQLEXPRESS, database=TEST_BTO
+2023-06-06 11:27:43,180 - INFO - __init__ - Connected to Odoo API
+2023-06-06 11:57:13,860 - INFO - __init__ - Connected to database : username=Inside, server=CLD-VM-CEMINEU9\SQLEXPRESS, database=TEST_BTO
+2023-06-06 11:58:09,291 - INFO - __init__ - Connected to database : username=Inside, server=CLD-VM-CEMINEU9\SQLEXPRESS, database=TEST_BTO
+2023-06-06 11:59:46,728 - INFO - __init__ - Connected to database : username=Inside, server=CLD-VM-CEMINEU9\SQLEXPRESS, database=TEST_BTO
+2023-06-06 12:00:51,758 - INFO - __init__ - Connected to database : username=Inside, server=CLD-VM-CEMINEU9\SQLEXPRESS, database=TEST_BTO
+2023-06-06 12:01:03,783 - INFO - __init__ - Connected to database : username=Inside, server=CLD-VM-CEMINEU9\SQLEXPRESS, database=TEST_BTO
+2023-06-06 12:02:46,317 - INFO - __init__ - Connected to database : username=Inside, server=CLD-VM-CEMINEU9\SQLEXPRESS, database=TEST_BTO
+2023-06-06 12:03:17,135 - INFO - __init__ - Connected to database : username=Inside, server=CLD-VM-CEMINEU9\SQLEXPRESS, database=TEST_BTO
+2023-06-06 13:04:26,149 - INFO - __init__ - Connected to Odoo API
+2023-06-06 13:04:31,273 - INFO - __init__ - Connected to Odoo API
+2023-06-06 13:05:07,619 - INFO - __init__ - Connected to Odoo API
+2023-06-06 13:05:19,676 - INFO - __init__ - Connected to Odoo API
+2023-06-06 14:25:26,881 - INFO - __init__ - Connected to Odoo API
+2023-06-06 14:41:30,381 - INFO - __init__ - Connected to database : username=Inside, server=CLD-VM-CEMINEU9\SQLEXPRESS, database=TEST_BTO
+2023-06-06 14:57:23,167 - INFO - __init__ - Connected to database : username=Inside, server=CLD-VM-CEMINEU9\SQLEXPRESS, database=TEST_BTO
+2023-06-06 15:04:22,947 - INFO - __init__ - Connected to database : username=Inside, server=CLD-VM-CEMINEU9\SQLEXPRESS, database=TEST_BTO
+2023-06-06 15:04:53,522 - INFO - __init__ - Connected to database : username=Inside, server=CLD-VM-CEMINEU9\SQLEXPRESS, database=TEST_BTO
+2023-06-06 15:07:19,042 - INFO - __init__ - Connected to database : username=Inside, server=CLD-VM-CEMINEU9\SQLEXPRESS, database=TEST_BTO
+2023-06-06 15:07:40,380 - INFO - __init__ - Connected to Odoo API
+2023-06-06 15:31:32,513 - INFO - __init__ - Connected to Odoo API
+2023-06-06 15:37:39,725 - INFO - __init__ - Connected to Odoo API
+2023-06-06 15:37:44,721 - INFO - __init__ - Connected to database : username=Inside, server=CLD-VM-CEMINEU9\SQLEXPRESS, database=TEST_BTO
+2023-06-06 15:37:50,948 - INFO - __init__ - Connected to database : username=Inside, server=CLD-VM-CEMINEU9\SQLEXPRESS, database=TEST_BTO
+2023-06-06 15:45:35,593 - INFO - __init__ - Connected to Odoo API
+2023-06-06 15:57:26,122 - INFO - __init__ - Connected to Odoo API
+2023-06-06 16:02:15,089 - INFO - __init__ - Connected to database : username=Inside, server=CLD-VM-CEMINEU9\SQLEXPRESS, database=TEST_BTO
+2023-06-06 16:16:35,799 - INFO - __init__ - Connected to Odoo API
+2023-06-06 16:16:57,087 - INFO - __init__ - Connected to Odoo API
+2023-06-06 16:19:54,260 - INFO - __init__ - Connected to Odoo API
+2023-06-06 16:20:10,501 - INFO - __init__ - Connected to Odoo API
+2023-06-07 13:55:54,238 - INFO - __init__ - Connected to Odoo API
+2023-06-07 14:01:26,856 - INFO - __init__ - Connected to Odoo API
+2023-06-07 15:40:37,086 - INFO - __init__ - Connected to Odoo API
+2023-06-07 15:41:31,830 - INFO - __init__ - Connected to Odoo API
+2023-06-07 15:56:56,660 - INFO - __init__ - Connected to Odoo API
+2023-06-07 15:58:10,368 - INFO - __init__ - Connected to Odoo API
+2023-06-07 15:58:42,197 - INFO - __init__ - Connected to Odoo API
+2023-06-07 15:58:52,905 - INFO - __init__ - Connected to Odoo API
+2023-06-07 16:06:50,718 - INFO - __init__ - Connected to Odoo API
+2023-06-07 16:07:02,257 - INFO - __init__ - Connected to Odoo API
+2023-06-07 16:08:13,641 - INFO - __init__ - Connected to database : username=Inside, server=CLD-VM-CEMINEU9\SQLEXPRESS, database=TEST_BTO
+2023-06-07 16:08:59,184 - INFO - __init__ - Connected to database : username=Inside, server=CLD-VM-CEMINEU9\SQLEXPRESS, database=TEST_BTO
+2023-06-07 16:13:25,062 - INFO - __init__ - Connected to Odoo API
+2023-06-07 16:28:52,279 - INFO - __init__ - Connected to Odoo API
+2023-06-07 16:33:31,384 - INFO - __init__ - Connected to Odoo API
+2023-06-07 16:34:28,687 - INFO - __init__ - Connected to Odoo API
+2023-06-07 16:36:27,315 - INFO - __init__ - Connected to Odoo API
+2023-06-08 08:23:30,268 - INFO - __init__ - Connected to database : username=Inside, server=CLD-VM-CEMINEU9\SQLEXPRESS, database=TEST_BTO
+2023-06-08 08:24:17,928 - INFO - __init__ - Connected to database : username=Inside, server=CLD-VM-CEMINEU9\SQLEXPRESS, database=TEST_BTO
+2023-06-08 08:33:27,380 - INFO - __init__ - Connected to database : username=Inside, server=CLD-VM-CEMINEU9\SQLEXPRESS, database=TEST_BTO
+2023-06-08 08:34:14,560 - INFO - __init__ - Connected to database : username=Inside, server=CLD-VM-CEMINEU9\SQLEXPRESS, database=TEST_BTO
+2023-06-08 09:05:43,098 - INFO - __init__ - Connected to Odoo API
+2023-06-08 09:06:32,395 - INFO - __init__ - Connected to Odoo API
+2023-06-08 09:08:59,454 - INFO - __init__ - Connected to Odoo API
+2023-06-08 09:09:55,392 - INFO - __init__ - Connected to Odoo API
+2023-06-08 09:11:43,450 - INFO - __init__ - Connected to Odoo API
+2023-06-08 09:24:00,352 - INFO - __init__ - Connected to Odoo API
+2023-06-08 09:35:24,458 - INFO - __init__ - Connected to Odoo API
+2023-06-08 09:36:46,216 - INFO - __init__ - Connected to Odoo API
+2023-06-08 09:36:57,104 - INFO - __init__ - Connected to Odoo API
+2023-06-08 09:42:07,570 - INFO - __init__ - Connected to Odoo API
+2023-06-08 09:42:27,325 - INFO - __init__ - Connected to Odoo API
+2023-06-08 09:45:12,878 - INFO - __init__ - Connected to Odoo API
+2023-06-08 09:45:18,460 - INFO - __init__ - Connected to Odoo API
+2023-06-08 09:46:07,035 - INFO - __init__ - Connected to Odoo API
+2023-06-08 09:46:32,483 - INFO - __init__ - Connected to Odoo API
+2023-06-08 09:46:55,087 - INFO - __init__ - Connected to Odoo API
+2023-06-08 09:47:30,801 - INFO - __init__ - Connected to Odoo API
+2023-06-08 09:47:50,622 - INFO - __init__ - Connected to Odoo API
+2023-06-08 09:54:21,932 - INFO - __init__ - Connected to Odoo API
+2023-06-08 09:54:33,296 - INFO - __init__ - Connected to Odoo API
+2023-06-08 09:59:26,271 - INFO - __init__ - Connected to Odoo API
+2023-06-08 09:59:41,877 - INFO - __init__ - Connected to Odoo API
+2023-06-08 09:59:59,223 - INFO - __init__ - Connected to Odoo API
+2023-06-08 10:00:05,701 - INFO - __init__ - Connected to Odoo API
+2023-06-08 10:00:40,792 - INFO - __init__ - Connected to Odoo API
+2023-06-08 10:00:49,706 - INFO - __init__ - Connected to Odoo API
+2023-06-08 10:02:15,476 - INFO - __init__ - Connected to Odoo API
+2023-06-08 10:03:08,795 - INFO - __init__ - Connected to Odoo API
+2023-06-08 10:03:54,990 - INFO - __init__ - Connected to Odoo API
+2023-06-08 10:05:17,861 - INFO - __init__ - Connected to Odoo API
+2023-06-08 10:35:05,360 - INFO - __init__ - Connected to database : username=Inside, server=CLD-VM-CEMINEU9\SQLEXPRESS, database=TEST_BTO
+2023-06-08 10:36:15,654 - INFO - __init__ - Connected to database : username=Inside, server=CLD-VM-CEMINEU9\SQLEXPRESS, database=TEST_BTO
+2023-06-08 10:38:40,817 - INFO - __init__ - Connected to database : username=Inside, server=CLD-VM-CEMINEU9\SQLEXPRESS, database=TEST_BTO
+2023-06-08 10:42:22,209 - INFO - __init__ - Connected to database : username=Inside, server=CLD-VM-CEMINEU9\SQLEXPRESS, database=TEST_BTO
+2023-06-08 10:47:11,913 - INFO - __init__ - Connected to database : username=Inside, server=CLD-VM-CEMINEU9\SQLEXPRESS, database=TEST_BTO
+2023-06-08 10:56:04,313 - INFO - __init__ - Connected to Odoo API
+2023-06-08 11:01:25,434 - INFO - __init__ - Connected to Odoo API
+2023-06-08 11:02:13,519 - INFO - __init__ - Connected to Odoo API
+2023-06-08 11:02:25,115 - INFO - __init__ - Connected to Odoo API
+2023-06-08 11:03:33,102 - INFO - __init__ - Connected to Odoo API
+2023-06-08 11:03:55,105 - INFO - __init__ - Connected to Odoo API
+2023-06-08 11:05:11,119 - INFO - __init__ - Connected to Odoo API
+2023-06-08 11:05:53,668 - INFO - __init__ - Connected to Odoo API
+2023-06-08 11:06:16,902 - INFO - __init__ - Connected to Odoo API
+2023-06-08 11:14:09,928 - INFO - __init__ - Connected to Odoo API
+2023-06-08 11:23:32,993 - INFO - __init__ - Connected to Odoo API
+2023-06-08 11:35:01,799 - INFO - __init__ - Connected to Odoo API
+2023-06-08 11:38:17,951 - INFO - __init__ - Connected to Odoo API
+2023-06-08 12:56:02,299 - INFO - __init__ - Connected to Odoo API
+2023-06-08 12:56:08,346 - INFO - __init__ - Connected to Odoo API
+2023-06-08 12:57:20,095 - INFO - __init__ - Connected to Odoo API
+2023-06-08 12:57:37,572 - INFO - __init__ - Connected to Odoo API
+2023-06-08 12:57:58,957 - INFO - __init__ - Connected to Odoo API
+2023-06-08 12:58:21,617 - INFO - __init__ - Connected to Odoo API
+2023-06-08 12:59:11,239 - INFO - __init__ - Connected to Odoo API
+2023-06-08 12:59:27,977 - INFO - __init__ - Connected to Odoo API
+2023-06-08 13:00:15,617 - INFO - __init__ - Connected to Odoo API
+2023-06-08 13:00:55,477 - INFO - __init__ - Connected to Odoo API
+2023-06-08 13:01:47,686 - INFO - __init__ - Connected to Odoo API
+2023-06-08 13:02:04,377 - INFO - __init__ - Connected to Odoo API
+2023-06-08 13:02:28,282 - INFO - __init__ - Connected to Odoo API
+2023-06-08 14:32:16,971 - INFO - __init__ - Connected to Odoo API
+2023-06-08 14:39:24,879 - INFO - __init__ - Connected to Odoo API
+2023-06-08 14:41:12,384 - INFO - __init__ - Connected to Odoo API
+2023-06-08 14:46:00,164 - INFO - __init__ - Connected to Odoo API
+2023-06-08 14:46:36,969 - INFO - __init__ - Connected to Odoo API
+2023-06-08 14:47:44,010 - INFO - __init__ - Connected to Odoo API
+2023-06-08 14:48:00,140 - INFO - __init__ - Connected to Odoo API
+2023-06-08 15:58:40,270 - INFO - __init__ - Connected to Odoo API
+2023-06-08 15:59:02,886 - INFO - __init__ - Connected to Odoo API
+2023-06-08 15:59:13,532 - INFO - __init__ - Connected to Odoo API
+2023-06-08 16:09:45,239 - INFO - __init__ - Connected to Odoo API
+2023-06-08 16:10:11,109 - INFO - __init__ - Connected to Odoo API
+2023-06-08 16:14:38,936 - INFO - __init__ - Connected to Odoo API
+2023-06-08 16:16:28,369 - INFO - __init__ - Connected to Odoo API
+2023-06-08 16:16:58,350 - INFO - __init__ - Connected to Odoo API
+2023-06-08 16:18:45,764 - INFO - __init__ - Connected to Odoo API
+2023-06-08 16:19:01,263 - INFO - __init__ - Connected to Odoo API
+2023-06-09 09:17:17,227 - INFO - __init__ - Connected to Odoo API
+2023-06-09 09:17:40,502 - INFO - __init__ - Connected to Odoo API
+2023-06-09 09:23:24,579 - INFO - __init__ - Connected to Odoo API
+2023-06-19 10:15:39,226 - INFO - __init__ - Connected to Odoo API
+2023-06-19 13:24:24,419 - INFO - __init__ - Connected to Odoo API
+2023-06-19 13:30:01,126 - INFO - __init__ - Connected to Odoo API
+2023-06-19 13:39:35,759 - INFO - __init__ - Connected to Odoo API
